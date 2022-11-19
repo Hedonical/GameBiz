@@ -21,8 +21,9 @@
   (fp_line (start 1 4.9) (end 16.5 4.9) (layer "F.SilkS") (width 0.02) (tstamp 807e732f-49c0-4d59-b974-345e5e31d82f))
   (fp_line (start 1 4.9) (end 0 4.9) (layer "F.SilkS") (width 0.02) (tstamp c8fe35e7-1f58-4a3c-a643-4f3cd2d61ffa))
   (fp_line (start 16.8 4.9) (end 16.8 -0.3) (layer "F.SilkS") (width 0.06) (tstamp d30dd7f8-de35-4de6-8cf6-ab3404894f31))
-  (pad "1" smd rect (at 2.75 5.15 270) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a7f03df7-3c3f-4a57-8afd-4345c6d88b4c))
-  (pad "2" smd custom (at 5 2.54) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask")
+  (fp_rect (start 0 5.4) (end 16.8 -0.3) (layer "F.Mask") (width 0.12) (fill solid) (tstamp 189113f9-40ad-4a29-9d50-915dd69ff0f7))
+  (pad "1" smd rect (at 2.75 5.15 270) (size 0.5 0.5) (layers "F.Cu" "F.Mask") (tstamp a7f03df7-3c3f-4a57-8afd-4345c6d88b4c))
+  (pad "2" smd custom (at 5 2.54) (size 0.2 0.2) (layers "F.Cu" "F.Mask")
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
